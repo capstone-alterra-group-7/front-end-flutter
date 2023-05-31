@@ -27,12 +27,6 @@ class _SplashScreenState extends State<SplashScreen> {
 
     final bool isLogin = prefs.getBool('isLogin') ?? false;
     if (context.mounted) {
-      // Navigator.pushReplacement(
-      //     context,
-      //     MaterialPageRoute(
-      //         builder: (context) => isOnboardingComplete
-      //             ? const DashboardPage()
-      //             : const IntroductionPage()));
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
